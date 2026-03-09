@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin | Revendedores</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        table { width:100%; border-collapse:collapse; margin-top:20px; }
+        th, td { padding:10px; border:1px solid #333; text-align:left; }
+        th { background:#ff007f; }
+        tr:nth-child(even) { background:#1a1a1a; }
+    </style>
+</head>
+<body>
+<h1>📊 Panel de Revendedores</h1>
+<p>Total registrados: <strong>{{ revendedores|length }}</strong></p>
+<table>
+    <tr>
+        <th>Nombre</th><th>Ciudad</th><th>Inversión</th><th>Fecha</th>
+    </tr>
+    {% for r in revendedores %}
+    <tr>
+        <td>{{ r[0] }}</td>
+        <td>{{ r[1] }}</td>
+        <td>{{ r[2] }}</td>
+        <td>{{ r[3] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

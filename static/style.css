@@ -1,0 +1,40 @@
+body{
+
+font-family: Arial;
+background:#0f0f0f;
+color:white;
+text-align:center;
+padding:50px;
+
+}
+
+h1{
+
+font-size:38px;
+
+}
+
+input{
+
+display:block;
+margin:10px auto;
+padding:12px;
+width:250px;
+
+}
+
+button{
+
+padding:12px 20px;
+background:#ff007f;
+color:white;
+border:none;
+border-radius:5px;
+
+}
+
+a{
+
+color:#ff007f;
+
+}
