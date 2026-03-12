@@ -9,7 +9,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # ─── CONFIGURACIÓN ───────────────────────────────────────
-CATALOGO_URL  = "https://bit.ly/SweetCatalogo"
+CATALOGO_URL  = "https://lenidajo.github.io/catalogo-envases/flipbook.html"
 WHATSAPP_NUM  = "573506046792"
 MARCA         = "Sweet Perfumes Colombia"
 GROQ_API_KEY  = os.getenv("GROQ_API_KEY", "")
